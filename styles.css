@@ -1,0 +1,108 @@
+/* General Reset */
+body, h1, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  /* Container Styling */
+  .container {
+    width: 360px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  /* Input Field Styling */
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    background: #f4f4f4;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  input:focus {
+    outline: none;
+    background: #e8f0fe;
+    border: 1px solid #6a11cb;
+  }
+  
+  /* Button Styling */
+  button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Link Styling */
+  .switch {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .switch a {
+    color: #6a11cb;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .switch a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form Animation */
+  .form-container {
+    animation: fadeIn 0.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
